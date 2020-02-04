@@ -1,0 +1,35 @@
+* {
+    margin:0px;
+    padding: 0px;
+
+}
+
+#drum-machine{
+    display: grid;
+    width: 50vw;
+    height: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    
+}
+
+.drum-pad {
+    background-color: yellowgreen;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3em;
+}
+
+#display {
+    grid-column: 1 / 4;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.4em;
+}
