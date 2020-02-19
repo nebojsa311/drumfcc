@@ -27,6 +27,15 @@
     font-size: 1.3em;
 }
 
+.drum-pad:active {
+    background-color: rgba(141, 236, 53, 0.925);
+}
+
+.drum-pad-active{
+    background-color: rgba(141, 236, 53, 0.925);
+}
+
+
 #display {
     grid-column: 1 / 4;
     text-align: center;
